@@ -1,0 +1,22 @@
+{
+  "name": "themes",
+  "version": "1.0.0",
+  "description": "Free, Open source themes from Kitty Themes",
+  "keywords": [],
+  "author": "Kitty Themes",
+  "license": "Apache-2.0",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.7",
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@commitlint/config-pnpm-scopes": "^19.1.0",
+    "husky": "^9.1.4",
+    "lint-staged": "^15.2.8"
+  },
+  "dependencies": {
+    "zx": "^8.1.4"
+  }
+}
